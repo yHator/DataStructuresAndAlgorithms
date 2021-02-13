@@ -46,6 +46,6 @@ int[] intArray = new int[]{1,2,3,4};
 
 Sources cited: 
 
-[GeeksforGeeks-Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
-[Arrays and Pointers](http://www2.lawrence.edu/fast/GREGGJ/CMSC270/Pointers/arrays_and_pointers.html)
-[Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java/)
+- [GeeksforGeeks-Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
+- [Arrays and Pointers](http://www2.lawrence.edu/fast/GREGGJ/CMSC270/Pointers/arrays_and_pointers.html)
+- [Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java/)
