@@ -45,7 +45,7 @@ int[] intArray = new int[]{1,2,3,4};
 ``` 
 # Code File
 
-I included some code in Java to make arrays. You can compile by doing the following:
+I included some code in Java to make arrays. You can compile by calling the following commands:
 ```sh
 javac arraySample.java
 java ArraySample
