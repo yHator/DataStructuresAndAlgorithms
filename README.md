@@ -30,5 +30,5 @@ You can also:
 
 1. Users can get worst case/best case for running (insert algorithm) on a (insert data structure)
 2. Users can retrieve the code for a series of combinations:
-  a. (insert language) , (insert algorithm), (insert data structure)
-  b. (insert language), (insert data structure)
+  - (insert language) , (insert algorithm), (insert data structure)
+  - (insert language), (insert data structure)
