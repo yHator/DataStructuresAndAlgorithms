@@ -1,4 +1,4 @@
-#Array Summary
+# Array Summary
 
 - linear data structure
 - elements are stored in contiguous memory locations 
