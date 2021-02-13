@@ -26,7 +26,9 @@ You can also:
   - Search through each marked folder for notes on code to implement each data structure/algorithm; and
   - View various course notes that I will include
 
-# Language: Java
+# User Interface Features
 
-Data structures included in the Java folder:
-- 
+1. Users can get worst case/best case for running (insert algorithm) on a (insert data structure)
+2. Users can retrieve the code for a series of combinations:
+  - (insert language) , (insert algorithm), (insert data structure)
+  - (insert language), (insert data structure)
