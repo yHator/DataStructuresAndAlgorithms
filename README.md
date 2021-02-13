@@ -25,6 +25,12 @@ I am creating a repo of all of the data structures and algorithms knowledge that
 You can also:
   - Search through each marked folder for notes on code to implement each data structure/algorithm; and
   - View various course notes that I will include
+  - Compare data structures per language against each other
+    > determine what data structure to use when optimizing:
+    - memory allocation
+    - size
+    - memory efficiency
+    - execution time
 
 # User Interface Features
 
