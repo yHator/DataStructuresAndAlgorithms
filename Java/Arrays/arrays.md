@@ -1,4 +1,4 @@
-# Array Summary
+#Array Summary
 
 - linear data structure
 - elements are stored in contiguous memory locations 
@@ -43,7 +43,12 @@ int[] intArray = new int[20]; //equivalent to the above line
 //you can also make an array literal ie define the values you want to put in the array
 int[] intArray = new int[]{1,2,3,4};
 ``` 
+# Code File
 
+I included some code in Java to make arrays. You can compile by doing the following:
+```sh
+javac arraySample.java
+java ArraySample
 Sources cited: 
 
 - [GeeksforGeeks-Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
