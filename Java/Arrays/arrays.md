@@ -50,7 +50,7 @@ I included some code in Java to make arrays. You can compile by doing the follow
 javac arraySample.java
 java ArraySample
 Sources cited: 
-
+```
 - [GeeksforGeeks-Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
 - [Arrays and Pointers](http://www2.lawrence.edu/fast/GREGGJ/CMSC270/Pointers/arrays_and_pointers.html)
 - [Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java/)
