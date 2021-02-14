@@ -21,13 +21,29 @@
 - for storing information when memory is limited
 - suitable for frequent insertion and deletion
 
-# How to implement a linked list:
+# Different types of linked lists
+- singularly linked list
+- doubly linked list
+- dummy node linked list
+
+# How to implement a singularly linked list:
 I included code to implement a linked list. You can compile by calling the following commands:
 ```sh
-javac arraySample.java
-java ArraySample
+javac LinkedList.java
+java LinkedList
 ```
+# Comparing Single Link vs. Double Link Performance
+
+| Function | Singularly Linked List | Doubly Linked List |
+| ------ | - | ------ |
+| Insert | O(1) | O(1) |
+| Delete |  O(1) | O(1) |
+| Search | O(n) | O(n) |
+
+
 Sources cited: 
 
 - [GeeksforGeeks - Linked List vs Arrays](https://www.geeksforgeeks.org/linked-list-vs-array/)
 - [Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java/)
+
+- [Data Structures & Algorithms: Linked Lists](https://medium.com/future-vision/data-structures-algorithms-linked-lists-fc0b8a82d609)
