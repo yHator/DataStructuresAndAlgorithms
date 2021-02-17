@@ -54,4 +54,4 @@ Sources cited:
 
 - [GeeksforGeeks - Linked List vs Arrays](https://www.geeksforgeeks.org/linked-list-vs-array/)
 - [Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java)
-- [Data Structures & Algorithms: Linked Lists](https://medium.com/future-vision data-structures-algorithms-linked-lists-fc0b8a82d609)
+- [Data Structures & Algorithms: Linked Lists](https://medium.com/future-visiondata-structures-algorithms-linked-lists-fc0b8a82d609)
