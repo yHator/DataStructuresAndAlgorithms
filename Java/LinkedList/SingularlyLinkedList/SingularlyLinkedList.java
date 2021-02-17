@@ -1,8 +1,8 @@
 import java.util.*;
 
-class SingularlyLinkedList extends Node{ //extended so LL can access private vars
+class SingularlyLinkedList extends SinglyNode{ //extended so LL can access private vars
 	
-	Node head; 
+	SinglyNode head; 
 
 	SingularlyLinkedList()
     {
@@ -11,7 +11,7 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
 
     SingularlyLinkedList(int headVal)
     {
-        head = new Node(headVal);
+        head = new SinglyNode(headVal);
     }
 
     /* length()
@@ -19,7 +19,7 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
     */
     int length()
 	{
-		Node traverse = head;
+		SinglyNode traverse = head;
 		int n = 1;
 		if(traverse == null)
 			return 0;
@@ -42,7 +42,7 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
 
 	void insertBegin(int key)
 	{
-		Node temp = new Node(key);
+		SinglyNode temp = new SinglyNode(key);
 		
 		if(head == null)
 			head = temp;
@@ -63,8 +63,8 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
 
 	void insertInEnd(int key)
 	{
-		Node newNode = new Node(key);
-		Node traverse = head;
+		SinglyNode newNode = new SinglyNode(key);
+		SinglyNode traverse = head;
 		
 		if(head == null)
 			head = newNode;
@@ -88,11 +88,11 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
 
 	void insertAtPos(int key, int pos)
 	{
-		Node newNode = new Node(key);
+		SinglyNode newNode = new SinglyNode(key);
 
         if (pos <= length() &&  pos > 0)
         {
-            Node traverse = head;
+            SinglyNode traverse = head;
             if(pos == 1)
             {
                 newNode.next = head;
@@ -122,7 +122,7 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
 	{
         if (pos <= length() &&  pos > 0)
         {
-            Node traverse = head;
+            SinglyNode traverse = head;
             if(pos==1)
                 head = traverse.next;
             else
@@ -145,7 +145,7 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
     */
 	void reverse()
 	{
-		Node prevNode=null, curNode=head, nextNode=null;
+		SinglyNode prevNode=null, curNode=head, nextNode=null;
         
 		while(curNode!=null)
 		{
@@ -156,13 +156,13 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
 			curNode=nextNode;
 		}
 		
-		head=prevLNode;
+		head=prevNode;
 	}
 	
 	
 	void display()
 	{
-		Node traverse = head;
+		SinglyNode traverse = head;
 		while(traverse != null)
         {
             if(traverse.next == null)
@@ -186,7 +186,7 @@ class SingularlyLinkedList extends Node{ //extended so LL can access private var
             System.out.println("\n********* MENU *********");
             System.out.println("\n1.Insert In End");
             System.out.println("\n2.Insert In Beg");
-            System.out.println("\n3.Insert At A  Particular Pos");
+            System.out.println("\n3.Insert At A  Particular Pos (key, pos)");
             System.out.println("\n4.Delete At a Pos");
             System.out.println("\n5.Length");
             System.out.println("\n6.Reverse");

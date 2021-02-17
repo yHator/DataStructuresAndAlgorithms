@@ -25,13 +25,22 @@
 - singularly linked list
 - doubly linked list
 - dummy node linked list
+- circularly linked lists (this can include single, double, etc)
 
 # How to implement a singularly linked list:
-I included code to implement a linked list. You can compile by calling the following commands:
+I included code to implement a singularly linked list (with only a head pointer, but you can add a tail pointer that will make the runtime more efficient, it is just slightly more inconvenient to program). You can compile by calling the following commands:
 ```sh
 javac LinkedList.java
 java LinkedList
 ```
+
+# How to implement a doubly linked list:
+I included code to implement a doubly linked list (with only a head pointer, but you can add a tail pointer that will make the runtime more efficient, it is just slightly more inconvenient to program). You can compile by calling the following commands:
+```sh
+javac DoublyLinkedList.java
+java DoublyLinkedList
+```
+
 # Comparing Single Link vs. Double Link Performance
 
 | Function | Singularly Linked List | Doubly Linked List |
@@ -44,6 +53,5 @@ java LinkedList
 Sources cited: 
 
 - [GeeksforGeeks - Linked List vs Arrays](https://www.geeksforgeeks.org/linked-list-vs-array/)
-- [Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java/)
-
-- [Data Structures & Algorithms: Linked Lists](https://medium.com/future-vision/data-structures-algorithms-linked-lists-fc0b8a82d609)
+- [Data Structures and Algorithms using Java](https://www.mygreatlearning.com/blog/data-structures-using-java)
+- [Data Structures & Algorithms: Linked Lists](https://medium.com/future-vision data-structures-algorithms-linked-lists-fc0b8a82d609)

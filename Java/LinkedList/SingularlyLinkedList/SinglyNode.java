@@ -1,14 +1,14 @@
-class Node{
+class SinglyNode{
 
 	int data;
-	Node next;
+	SinglyNode next;
 	
 	//making default constructor so subclass doesn't have to call super
-	Node()
+	SinglyNode()
 	{
 		this.next = null;
 	}
-	Node(int data)
+	SinglyNode(int data)
 	{
 		this.data=data;
 		this.next=null;
