@@ -23,4 +23,5 @@ java binSearch
 
 Sources cited: 
 - [GeeksforGeeks - Binary Search](https://www.geeksforgeeks.org/binary-search/)
+- [Professor Dr. Liu](https://www.scu.edu/engineering/faculty/liu-yuhong/)
 
