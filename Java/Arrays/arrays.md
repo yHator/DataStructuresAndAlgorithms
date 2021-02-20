@@ -26,9 +26,15 @@ $ int A[] = new int[100];
 - for storing information in a linear fashion
 - suitable for frequent searching
 
+# Different types of arrays
+- arrays (fixed size)
+- ArrayLists (dynamic size)
+- multi-dimension arrays (matrices)
+
 # Different ways to implement an array:
 ```sh
 //grammar: type varName[]; OR type[] varName;
+
 int intArray[];
 int[] intArray;
 
@@ -37,19 +43,36 @@ int[] intArray;
 Person people[];
 
 //so far we have only described unallocated arrays, ie we have only made references to arrays
+
 int intArray = new int[20]; //actually allocates memory to array
 int[] intArray = new int[20]; //equivalent to the above line
 
 //you can also make an array literal ie define the values you want to put in the array
 int[] intArray = new int[]{1,2,3,4};
 ``` 
-# Code File
-
-I included some code in Java to make arrays. You can compile by calling the following commands:
+# How to implement an array:
+I included code to implement an array. You can compile by calling the following commands:
 ```sh
 javac arraySample.java
 java ArraySample
 ```
+
+# How to implement an ArrayList:
+I included code to implement an ArrayList. You can compile by calling the following commands:
+```sh
+javac arraySample.java
+java ArraySample
+```
+
+# Comparing Array vs. ArrayList vs. Matrix Performance
+(unsorted)
+| Function | Array | ArrayList | Matrix (nxn)
+| ------ | - | ------ | ------ |
+| Insert | O(1) | O(1) | O(1) |
+| Delete |  O(n) | O(n) | O(n^2) |
+| Search | O(n) | O(n) |  O(n^2) | 
+
+
 Sources cited: 
 
 - [GeeksforGeeks-Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)

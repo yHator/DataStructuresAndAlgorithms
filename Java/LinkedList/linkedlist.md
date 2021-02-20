@@ -42,7 +42,7 @@ java DoublyLinkedList
 ```
 
 # Comparing Single Link vs. Double Link Performance
-
+(unsorted, no tail pointer)
 | Function | Singularly Linked List | Doubly Linked List |
 | ------ | - | ------ |
 | Insert | O(1) | O(1) |
