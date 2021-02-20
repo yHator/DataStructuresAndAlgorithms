@@ -19,7 +19,7 @@ java binSearch
 | ------ | - | 
 | Search | O(logn) | 
 
-![Alt text](Algorithms/BinarySearch/VisualizationOfBinSearch.jpg)
+![Alt text](VisualizationOfBinSearch.jpg)
 
 Sources cited: 
 - [GeeksforGeeks - Binary Search](https://www.geeksforgeeks.org/binary-search/)
